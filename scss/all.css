@@ -263,6 +263,9 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
   }
 }
 
