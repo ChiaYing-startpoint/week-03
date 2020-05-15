@@ -10,12 +10,13 @@
     @include iphone(){
         padding: 10px 0px;
         justify-content: center;
+        width: 100%;
+        position: fixed;
+        z-index: 1000; //使導覽列在最前面
         
     }
    
-    // width: 100%;
-    // position: fixed;
-    // z-index: 1000; //使導覽列在最前面
+    
     h1 {
         a{
         background-image: url('../img/logo-new_工作區域 1.png');
