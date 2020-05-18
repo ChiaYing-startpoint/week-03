@@ -1626,7 +1626,8 @@ img {
 .recommend li {
   width: 25%;
   background-color: #FFFFFF;
-  border: 1px solid #DEE2E6;
+  -webkit-box-shadow: inset 0px 0px 1px 1px #DEE2E6;
+          box-shadow: inset 0px 0px 1px 1px #DEE2E6;
 }
 
 @media (max-width: 992px) {
