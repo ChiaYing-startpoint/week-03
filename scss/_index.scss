@@ -1,3 +1,4 @@
+
 .container{
     @include ipad(){
         padding: 0px 48px;
@@ -588,7 +589,8 @@
     li{
         width: 25%;
         background-color: $white;
-        border: 1px solid $glaylight;
+        box-shadow:inset 0px 0px 1px 1px   $glaylight;
+        
         @include ipad(){
             width: 48%;
             margin:0px;
