@@ -48,7 +48,9 @@
                 margin-bottom: 3px;
                 transition: transform .5s; //在未被點時下動畫速度
                 
+                
             }
+            
             &.active{ //點擊後漢堡變打叉
                 .line{
                     position: absolute;
